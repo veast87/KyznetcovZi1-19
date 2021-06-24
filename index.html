@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Сайт портфолио</title>
+  <style>
+  .tabs .indicator {
+    background-color: #1a237e;
+  }
+
+  .tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="" class="brand-logo">Главная</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down topmenu">
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="portfolio.html">Портфолио</a>
+            <ul class="submenu">
+              <li><a href="#">Техническая документация</a></li>
+              <li><a href="#">Компьютерная графика</a>
+                <ul class="submenu">
+                  <li><a href="#">Растровая графика</a></li>
+                  <li><a href="#">Векторная графика</a></li>
+                  <li><a href="#">Инфографика</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Печатная продукция</a></li>
+              <li><a href="#">Мультимидийные приложения</a></li>
+              <li><a href="#">Сервисы интернета</a></li>
+              <li><a href="#">Офисное оборудование</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutme.html">Обо мне</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2 topmenu" id="mobile-menu">
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="portfolio.html">Портфолио</a>
+            <ul class="submenu">
+              <li><a href="#">Техническая документация</a></li>
+              <li><a href="#">Компьютерная графика</a>
+                <ul class="submenu">
+                  <li><a href="#">Растровая графика</a></li>
+                  <li><a href="#">Векторная графика</a></li>
+                  <li><a href="#">Инфографика</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Печатная продукция</a></li>
+              <li><a href="#">Мультимидийные приложения</a></li>
+              <li><a href="#">Сервисы интернета</a></li>
+              <li><a href="#">Офисное оборудование</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutme.html">Обо мне</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- photo / grid -->
+  <section class="container section" id="city">
+    <div class="row">
+      <div class="col s12 l4"> Я  Кузнецов Константин Романович,обучаюсь в МЦК-ЧЭМК по специальности Организация и Технология Защиты информаци. 
+        <img src="img/i4.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h4 class="indigo-text text-darken-4">Специальность Организация и Технология Защиты информаци</h4>
+        <p>Специалист по информационной безопасности — не самая простая, зато востребованная ИТ-профессия. Она пугает множеством терминов и своеобразных инструментов, хотя на деле доступна людям без технического бэкграунда. Изучив ИБ, вы будете работать с государственными корпорациями, банками, средним и крупным бизнесом, облачными сервисами и стартапами. Проще говоря, везде, где есть вероятность взлома.</p>
+        <!-- Modal  -->
+        <div class="container left">
+          <a href="#terms-1" class="btn cyan modal-trigger">Узнать больше</a>
+          <div class="modal" id="terms-1">
+            <div class="modal-content">
+              <h4>Специальность Организация и Технология Защиты информации</h4>
+              <p>Обычно под специалистом по информационной безопасности подразумевают человека, который может внедрить и поддерживать защиту от несанкционированного доступа. Настроить сеть, предусмотреть ошибки и потенциальные баги, развернуть и запустить технологии мониторинга подключений.</p>
+              <p> Главные задачи специалиста по ИБ — настраивать инструменты для защиты и мониторинга, писать скрипты для автоматизации процессов, время от времени проводить пентесты, чувствуя себя хакером. Следить за общими показателями системы и администрировать средства защиты информации.</p>
+              <p>Интересно отметить, что Средний заработок у специалистов по защите данных по данным «Хабр Карьеры» — порядка 125 тысяч рублей. Но это общая сумма для всех уровней и компаний. Есть те, кто начинает с 50 тысяч рублей, а есть и вакансии руководителей с доходов в 300–400 тысяч.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="" class="modal-close btn cyan">Закрыть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 l4 push-l7 offset-l1">
+        <img src="img/i5.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 pull-l5 right-align offset-l1">
+        <h4 class="indigo-text text-darken-4">Электромеханический колледж МЦК-ЧЭМК</h4>
+        <p>Чебоксарский электромеханический колледж Минобразования Чувашии за годы своей деятельности зарекомендовал себя признанным флагманом ссузов России. В 2016 году образовательное учреждение получило статус межрегионального центра компетенций. Подробнее об этом — в интервью руководителя МЦК ЧЭМК Алексея Судленкова.</p>
+        <!-- Modal  -->
+        <div class="container right">
+          <a href="#terms-2" class="btn cyan modal-trigger">Узнать больше</a>
+          <div class="modal" id="terms-2">
+            <div class="modal-content left-align">
+              <h4>Электромеханический колледж МЦК-ЧЭМК</h4>
+              <p>Чебоксарский электромеханический колледж Минобразования Чувашии за годы своей деятельности зарекомендовал себя признанным флагманом ссузов России. В 2016 году образовательное учреждение получило статус межрегионального центра компетенций. Подробнее об этом — в интервью руководителя МЦК ЧЭМК Алексея Судленкова.</p>
+              <p>Чувашская Республика и Чебоксарский электромеханический колледж стали победителями в конкурсном отборе на софинансирование мероприятий государственных программ субъектов Российской Федерации в целях предоставления в 2016–2017 годах из федерального бюджета субсидий на финансовое обеспечение мероприятий Федеральной целевой программы развития образования на 2016–2020 годы, — рассказывает Алексей Алексеевич. — Нашим плюсом стало понимание тех задач, которые были изложены в техническом задании, что позволило нам качественно подготовить документацию. И конечно, важнейшая составляющая успеха — это поддержка правительства Чувашской Республики и содействие работодателей.</p>
+              <p>На базе колледжа создан межрегиональный центр компетенций по направлению «Автоматизация, радиотехника и электроника». Появились новые специальности, такие как «Монтаж, техническое обслуживание и ремонт биотехнических и медицинских аппаратов и систем», «Управление качеством продукции, процессов и услуг (по отраслям)».Обобразовательные программы МЦК разработаны в соответствии с требованиями новых ФГОС СПО по топ-50 и профессиональных стандартов, а также с учётом предложений по актуализации квалификационных требований и образовательных программ по указанным профессиям и специальностям.</p>
+              <p>Что представляет собой МЦК и на что направлена его деятельность?</p>
+              <p>Это крупная структура, куда входят учебный центр, тренировочный полигон, отдел организационного методического и ресурсного обеспечения. Координирует работу наблюдательный совет МЦК. Результатом деятельности центра станет подготовка профессионалов — победителей национальных соревнований для рабочих кадров, и в первую очередь — победителей мирового чемпионата в Казани в 2019 году.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="" class="modal-close btn cyan">Закрыть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/stars.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+  <!-- contact form -->
+  <section class="section-container" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">Связь со мной</h2>
+        <p>У вас есть возможность связаться со мной или написать свой отзыв или предложение по улучшению сайта.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Ваш email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea  id="message" class="materialize-textarea"></textarea>
+            <label for="message">Ваше сообщение</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Выберите дату</label>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Разместить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>Кратко обо мне</h5>
+          <p>Меня зовут Кузнецов Константин, я студент 2 курса МЦК-ЧЭМК. Обучаюсь по специальности Организация и Технология Защиты информации. Разработанный мною сайт полностью адаптирован под все устройства.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Контакты</h5>
+          <ul>
+            <li><a href="https://ru-ru.facebook.com/profile.php?id=100044380897152" class="grey-text text-lighten-3">Facebook</a></li>
+            <li><a href="https://vk.com/rozdennuy_v_pustote18" class="grey-text text-lighten-3">VKontakte</a></li>
+            <li><a href="https://www.instagram.com/rozdennuy_v_pustote" class="grey-text text-lighten-3">Instagram</a></li>
+			<li><a href="mailto:konstantin.kuznecov.1982@bk.ru" class="grey-text text-lighten-3">Mail</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2021 Кузнецов Константин</div>
+    </div>
+  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".sidenav").sidenav();
+      $(".modal").modal();
+      $(".materialboxed").materialbox();
+      $(".parallax").parallax();
+      $(".tabs").tabs();
+      $(".datepicker").datepicker({});
+    });
+
+  </script>
+</body>
+</html>
