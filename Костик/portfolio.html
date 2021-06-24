@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Сайт портфолио</title>
+  <style>
+  body{ font-family:courier new;
+font-size:20px}
+  .tabs .indicator {
+    background-color: #1a237e;
+  }
+
+  .tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="" class="brand-logo">Портфолио</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down topmenu">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="portfolio.html">Портфолио</a>
+            <ul class="submenu">
+              <li><a href="#tex">Техническая документация</a></li>
+              <li><a href="#graph">Компьютерная графика</a>
+                <ul class="submenu">
+                  <li><a href="#rastr">Растровая графика</a></li>
+                  <li><a href="#vek">Векторная графика</a></li>
+                  <li><a href="#inf">Инфографика</a></li>
+                </ul>
+              </li>
+              <li><a href="#pech">Печатная продукция</a></li>
+              <li><a href="#mult">Мультимедийные приложения</a></li>
+              <li><a href="#serv">Сервисы интернета</a></li>
+              <li><a href="#ofis">Офисное оборудование</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutme.html">Обо мне</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+
+        <ul class="sidenav grey lighten-2 topmenu" id="mobile-menu">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="portfolio.html">Портфолио</a>
+            <ul class="submenu">
+              <li><a href="#tex">Техническая документация</a></li>
+              <li><a href="#graph">Компьютерная графика</a>
+                <ul class="submenu">
+                  <li><a href="#rastr">Растровая графика</a></li>
+                  <li><a href="#vek">Векторная графика</a></li>
+                  <li><a href="#inf">Инфографика</a></li>
+                </ul>
+              </li>
+              <li><a href="#pech">Печатная продукция</a></li>
+              <li><a href="#mult">Мультимедийные приложения</a></li>
+              <li><a href="#serv">Сервисы интернета</a></li>
+              <li><a href="#ofis">Офисное оборудование</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutme.html">Обо мне</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- photo / grid -->
+  <div class="container section" id="tex">
+    <div class="row">
+        <div class="col s12 l12 pull-l5 center-align offset-l6">
+        <h4 class="indigo-text text-darken-4">Техническая документация</h4>
+
+        <div class="col s12 l6 push-l2 offset-l1">
+          <a href="img/Документация.pdf" download>Бриф на разработку сайта</a>
+        </div>
+        <div class="col s12 l6 push-l2 offset-l1">
+          <a href="img/Договор.pdf" download>Договор</a>
+        </div>
+        <div class="col s12 l6 push-l2 offset-l1">
+          <a href="img/ТЗ.pdf" download>Техническое задание</a>
+        </div>
+		        <div class="col s12 l6 push-l2 offset-l1">
+          <a href="img/Костик отчет.docx" download>Скачать общий отчет</a> (<a href="img/Костик отчет.pdf">Открыть в PDF</a>)
+		  
+        </div>
+      </div>
+    </div>
+
+    <div class="container section" id="graph">
+    <div class="row">
+      <div class="col s12 l12 pull-l5 center-align offset-l6">
+        <h3 class="indigo-text text-darken-4">Компьютерная графика</h3>
+			  <p>Компьютерная графика - это процесс создания, обработки и вывода изображений разного рода с помощью компьютера.</p>
+
+      </div>
+    </div>
+	
+  </div>
+
+  <div class="container section" id="rastr">
+  <div class="row">
+    <div class="col s12 l12 pull-l5 center-align offset-l6">
+      <h4 class="indigo-text text-darken-4">Растровая графика(GIMP)</h4>
+	  <p>Растровое изображение — изображение, представляющее собой сетку пикселей или точек цветов (обычно прямоугольную) на компьютерном мониторе, бумаге и других отображающих устройствах и материалах. Важными характеристиками изображения являются:
+
+</p>
+      <div class="col s12 l9 push-l1 offset-l-2">  <p>Рисунок лошади на фоне заката, при помощи функции "Заливка"</p>
+        <img src="img/lr9.png" alt="lr9" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">  <p>Осветление фотографии</p>
+        <img src="img/lr10.png" alt="lr10" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">  <p>Определение цветов на фотографии</p>
+        <img src="img/Растровая.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	   <div class="col s12 l9 push-l1 offset-l-2"> <p>Рисунок кистями</p>
+        <img src="img/Растровая2.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	 <div class="col s12 l9 push-l1 offset-l-2"> <p>Преобразование фотографии из ч/б в цветное</p>
+        <img src="img/телка.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	  <div class="col s12 l9 push-l1 offset-l-2"> <p>Вербы(при помощи кистей)</p>
+        <img src="img/вербы.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	   <div class="col s12 l9 push-l1 offset-l-2"> <p>Рисунок кистями</p>
+        <img src="img/Растровая3.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	   <div class="col s12 l9 push-l1 offset-l-2"> <p>Итоговая работа на лабораторных работах</p>
+        <img src="img/Растровая4.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+    </div>
+    </div>
+</div>
+
+    <div class="container section" id="vek">
+      <div class="row">
+        <div class="col s12 l12 pull-l5 center-align offset-l6">
+          <h4 class="indigo-text text-darken-4">Векторная графика(SketchUp, Scribus)</h4>
+		  <p>Векторная графика — способ представления объектов и изображений в компьютерной графике, основанный на математическом описании элементарных геометрических объектов, обычно называемых примитивами, таких как: точки, линии, сплайны, кривые Безье, круги и окружности, многоугольники.</p>
+		 <div class="col s12 l9 push-l1 offset-l-2"> <p>Дом(сложные модели(машина, цветы) взяты из открытых источников))</p>
+        <img src="img/Векторная1.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	  <div class="col s12 l9 push-l1 offset-l-2"> <p>Комната в доме(сложные модели(кресло, картины) взяты из открытых источников))</p>
+        <img src="img/Векторная2.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	  <div class="col s12 l9 push-l1 offset-l-2"> <p>Пейзаж</p>
+        <img src="img/Векторная3.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	  <div class="col s12 l9 push-l1 offset-l-2"><p>Табурет</p>
+        <img src="img/Векторная4.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	  <div class="col s12 l9 push-l1 offset-l-2"><p>Арка</p>
+        <img src="img/Векторная5.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	  <div class="col s12 l9 push-l1 offset-l-2"><p>Кирпичная стена</p>
+        <img src="img/Векторная6.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+	   <div class="col s12 l9 push-l1 offset-l-2"><p>Стул</p>
+        <img src="img/Растровая5.jpg" alt="banner" class="responsive-img materialboxed">
+      </div>
+      </div>
+    </div>
+
+    <div class="container section" id="inf">
+      <div class="row">
+        <div class="col s12 l12 pull-l5 center-align offset-l6">
+          <h4 class="indigo-text text-darken-4">Инфографика</h4>
+          <div class="col s12 l9 push-l0 offset-l1"><p>Инфографика, сделанная в OF Draw</p>
+            <img src="img/info.png" alt="info" class="responsive-img materialboxed">
+          </div>
+		   <div class="col s12 l9 push-l0 offset-l1"><p>Инфографика, сделанная в Canva.com</p>
+            <img src="img/Инфографика.jpg" alt="info" class="responsive-img materialboxed">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container section" id="pech">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l12 pull-l6 center-align offset-l6">
+        <h4 class="indigo-text text-darken-4">Печатная продукция</h4>
+      </div>
+      <div class="col s12 l6 push-l2 offset-l1">
+        <P ALIGN=center><a href="img/буклет.pdf" download>Буклет (Открыть в PDF)</a></p>
+		
+      </div>
+      <div class="col s12 l6 push-l2 offset-l1">
+       <P ALIGN=center> <a href="img/журнал.pdf" download>Журнал (Открыть в PDF)</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container section" id="mult">
+  <div class="row">
+    <div class="col s12 l12 pull-l5 center-align offset-l6">
+      <h3 class="indigo-text text-darken-4">Мультимедийные приложения</h3>
+	  <p align=center>Видеоролик с учебной практики</p>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/90Kz8osYw2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="container section" id="serv">
+<div class="row">
+  <div class="col s12 l12 pull-l5 center-align offset-l6">
+    <h4 class="indigo-text text-darken-4">Сервисы интернета</h4>
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1"><p align=center>Футболка с фирменным дизайном</p>
+    <img src="img/Сервисы1.jpg" class="responsive-img materialboxed">
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1"><p align=center>Покупка билетов в кино</p>
+    <img src="img/Сервисы2.jpg" class="responsive-img materialboxed">
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1"><p align=center>Запись на прием</p>
+    <img src="img/Сервисы3.jpg" class="responsive-img materialboxed">
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1"><p align=center>Онлайн-заказ</p>
+    <img src="img/Сервисы4.jpg" class="responsive-img materialboxed">
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1"><p align=center>Маршрут по картам</p>
+    <img src="img/Сервисы5.jpg" class="responsive-img materialboxed">
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1"><p align=center>Визитная карточка</p>
+    <img src="img/Сервисы6.jpg" class="responsive-img materialboxed">
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1"><p align=center>Грамота</p>
+    <img src="img/Сервисы7.jpg" class="responsive-img materialboxed">
+  </div>
+
+</div>
+</div>
+
+<div class="container section" id="ofis">
+<div class="row">
+  <div class="col s12 l12 pull-l5 center-align offset-l6">
+    <h4 class="indigo-text text-darken-4">Офисное оборудование</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D3aF7DhvQxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+</div>
+</div>
+  <!-- contact form -->
+  <section class="section-container" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">Связаться со мной</h2>
+        <p>У вас есть возможность связаться со мной или написать свой отзыв или предложение по улучшению сайта.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Ваш email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea  id="message" class="materialize-textarea"></textarea>
+            <label for="message">Ваше сообщение</label>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Разместить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>Кратко обо мне</h5>
+          <p>Меня зовут Кузнецов Константин, я студент 2 курса МЦК-ЧЭМК. Обучаюсь по специальности Организация и Технология Защиты информации. Разработанный мною сайт полностью адаптирован под все устройства.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Контакты</h5>
+          <ul>
+            <li><a href="https://ru-ru.facebook.com/profile.php?id=100044380897152" class="grey-text text-lighten-3">Facebook</a></li>
+            <li><a href="https://vk.com/rozdennuy_v_pustote18" class="grey-text text-lighten-3">Twitter</a></li>
+            <li><a href="https://www.instagram.com/rozdennuy_v_pustote" class="grey-text text-lighten-3">VKontakte</a></li>
+            <li><a href="mailto:konstantin.kuznecov.1982@bk.ru" class="grey-text text-lighten-3">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2021 Кузнецов Константин</div>
+    </div>
+  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".sidenav").sidenav();
+      $(".modal").modal();
+      $(".materialboxed").materialbox();
+      $(".parallax").parallax();
+      $(".tabs").tabs();
+      $(".datepicker").datepicker({});
+    });
+  </script>
+</body>
+</html>
